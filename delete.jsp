@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
 <body style="font-family: 'palatino linotype', palatino, serif;color:#D1650D;  font-weight:bold;text-align:center;font-size:32px;" >
-<br><br><div>Delete Successfully !</div><br><br>
+<br><br><div>Deleting information Successfully !</div><br><br>
 <a style="text-decoration:none;font-size:12pt; font-weight:bold; "  href="">返回首页</a>
   </body>
 </html>

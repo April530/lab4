@@ -1,0 +1,13 @@
+[1mdiff --git a/delete.jsp b/delete.jsp[m
+[1mindex 6d83a71..f2d6235 100644[m
+[1m--- a/delete.jsp[m
+[1m+++ b/delete.jsp[m
+[36m@@ -20,7 +20,7 @@[m [mString basePath = request.getScheme()+"://"+request.getServerName()+":"+request.[m
+   </head>[m
+   [m
+ <body style="font-family: 'palatino linotype', palatino, serif;color:#D1650D;  font-weight:bold;text-align:center;font-size:32px;" >[m
+[31m-<br><br><div>Delete Successfully !</div><br><br>[m
+[32m+[m[32m<br><br><div>Deleting information Successfully !</div><br><br>[m
+ <a style="text-decoration:none;font-size:12pt; font-weight:bold; "  href="">返回首页</a>[m
+   </body>[m
+ </html>[m

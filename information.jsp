@@ -33,7 +33,7 @@
 			<s:property value="book.age" /><br>
 			Country:
 			<s:property value="book.country" /><br><br>
-  <a style="text-decoration:none;font-size:12pt; font-weight:bold; "  href="">返回首页</a>
+  <a style="text-decoration:none;font-size:12pt; font-weight:bold; "  href="">返回</a>
   </div >
 </body>
 </html>
