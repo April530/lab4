@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="GBK" />
+	
+	<package name="Mys2" namespace="/" extends="struts-default">
+		<default-action-ref name="index" />
+		
+		<action name="index" class="My_action.BookAction" method="list">
+			<result name="success">/s_index.jsp</result>
+		</action>  	
+		
+		<action name="information" class="My_action.BookAction" method="updateInput">
+			<result name="input">/information.jsp</result>
+		</action>
+		
+		<action name="update" class="My_action.BookAction" method="update">
+			<result name="success" >/up_success.jsp</result>
+		</action>
+		
+		<action name="search" class="My_action.BookAction" method="slist">
+			<result name="success">/search_result.jsp</result>
+		</action>
+					
+		<action name="update-input" class="My_action.BookAction" method="updateInput">
+			<result name="input" >/refresh_infor.jsp</result>
+		</action>
+		
+		<action name="delete" class="My_action.BookAction" method="delete">
+			<result name="success">/delete.jsp</result>
+		</action>
+	</package>
+</struts>  

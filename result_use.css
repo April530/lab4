@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+html, body, div, p, ul, ol, li, a, table, tr, td, textarea, form, input,
+	img, header, footer, section {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+}
+
+body, input, textarea {
+	font-size: 14px;
+}
+
+body {
+	color: #333;
+	min-width: 320px;
+	font-family: "Microsoft Yahei", "冬青黑体简体中文 w3", "宋体";
+	white-space: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333;
+	margin: 0;
+	word-break: break-all;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #01A29C;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: normal;
+}
+/*通用样式*/
+.wrapper {
+	margin: 0 auto;
+	padding-top: 36px;
+	width: 640px;
+	height: auto;
+}
+
+.wrapper p img {
+	margin: -10px 0 -15px 0;
+}
+
+.forgot-usr-pwd {
+	width: 220px;
+	float: left;
+	margin-top: 26px;
+	margin-left: 0;
+	color: #cccccc;
+	line-height: 24px;
+}
+
+.forgot-usr-pwd a {
+	color: #cccccc;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.forgot-usr-pwd a:hover, .forgot-usr-pwd a:focus {
+	text-decoration: underline;
+}
+
+input[type="submit"] {
+	width: 95px;
+	height: 73px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 2px;
+	font-family: Verdana, Arial;
+	font-size: 26px;
+	color: #ffffff;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+	background: url(images/go-hover.png) top left no-repeat;
+}
+
+.home {
+	width: 70px;
+	height: 73px;
+	float: left;
+	margin-top: 122px;
+	margin-left: 21px;
+	font-size: 20px;
+	padding: 25px 0 0 15px;
+}
+
+.home:hover, .home:focus {
+	background: url(images/go-hover.png) top left no-repeat;
+}
+
+.home a, .home a:hover, .home a:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer {
+	margin: auto;
+	margin-top: 50px;
+	width: 500px;
+	height: 30px;
+	background: url(images/footer-bg.png) bottom center no-repeat;
+	text-align: center;
+	font-family: "Times New Roman", Times, Georgia;
+	font-weight: normal;
+	font-size: 16px;
+	color: #8d8d8d;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #8d8d8d;
+}
+
+#footer a:hover, #footer a:focus {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
