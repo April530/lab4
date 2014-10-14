@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="description" content="This is my page">
 
   </head>
-  
+ <h1>modifying</h1>
 <body style="font-family: 'palatino linotype', palatino, serif;color:#D1650D;  font-weight:bold;text-align:center;font-size:32px;" >
 <br><br><div>Deleting information Successfully !</div><br><br>
 <a style="text-decoration:none;font-size:12pt; font-weight:bold; "  href="">返回首页</a>
