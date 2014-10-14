@@ -30,7 +30,7 @@
 		</div>
 			 
 		<div id="footer">
-			Lab2 by 1120310224 Zhou ziyi. <a href="">—— Home Page </a>
+			Lab2 by 1120310224 Zhou ziyi... <a href="">—— Home Page </a>
 		</div>
 </body>
 </html>
